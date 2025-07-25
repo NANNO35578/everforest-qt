@@ -1,0 +1,2 @@
+# Everforest QtCreator Theme
+
