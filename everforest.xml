@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Everforest">
+  <style name="Text" foreground="#D3C6AA" background="#333C43"/>                <!-- fg -->
+  <style name="Link" underlineStyle="SingleUnderline" foreground="#D19A66"/>     <!-- statusline2 -->
+  <style name="Selection" background="#3A3F4B"/>                               
+  <style name="LineNumber" foreground="#9DA9A0"/>                               <!-- gray0 -->
+  <style name="SearchResult" background="#E67E80"/>                             <!-- bg_visual -->
+  <style name="SearchResultAlt1" foreground="#000033" background="#B6CCFF"/>    <!-- bg_yellow -->
+  <style name="SearchResultAlt2" foreground="#330000" background="#FFB6CC"/>    <!-- red -->
+  <style name="SearchResultContainingFunction" background="#3A3F4B"/>           <!-- bg_visual -->
+  <style name="SearchScope" background="#E67E80"/>                           
+  <style name="Parentheses" foreground="#9DA9A0" background="#555F66" underlineColor="#E67E80" underlineStyle="SingleUnderline"/> <!-- fg -->
+  <style name="ParenthesesMismatch" foreground="#DBBC7F" background="#d699b6"/>  <!-- purple -->
+  <style name="AutoComplete" background="#3A3F4B"/>                             <!-- bg_visual -->
+  <style name="CurrentLine" background="#3A3F4B"/>                              <!-- bg_visual -->
+  <style name="CurrentLineNumber" foreground="#e67e80"/>                        <!-- gray1 -->
+  <style name="Occurrences" background="#E67E80"/>                              <!-- bg_visual -->
+  <style name="Occurrences.Unused" underlineColor="#D19A66" underlineStyle="DashUnderline"/> <!-- statusline2 -->
+  <style name="Occurrences.Rename" background="#E06C75"/>                       <!-- red -->
+  <style name="Number" foreground="#D699B6"/>                                   <!-- statusline2 -->
+  <style name="String" foreground="#A7C080"/>                                   <!-- green -->
+  <style name="Type" foreground="#DBBC7F"/>                                     <!-- blue -->
+  <style name="Concept" foreground="#61AFEF"/>                                  <!-- blue -->
+  <style name="Namespace" foreground="#DBBC7F"/>                                <!-- blue -->
+  <style name="Local"/>
+  <style name="Parameter"/>
+  <style name="Global"/>
+  <style name="Field" foreground="#7FBBB3"/>                                    <!-- red -->
+  <style name="Static" foreground="#E69875" italic="true"/>                     <!-- blue -->
+  <style name="VirtualMethod" foreground="#A7C080" italic="true"/>              <!-- blue -->
+  <style name="Function" foreground="#a7c080"/>                                 <!-- blue -->
+  <style name="Keyword" foreground="#e67e80" italic="true"/>                                   <!-- purple -->
+  <style name="PrimitiveType" foreground="#dbbc7f" italic="true"/>                            <!-- purple -->
+  <style name="Operator" foreground="#DBBC7F"/>                                 <!-- purple -->
+  <style name="Overloaded Operator" foreground="#D699B6"/>                      <!-- purple -->
+  <style name="Punctuation"/>
+  <style name="Preprocessor" foreground="#d699b6"/>                             <!-- purple -->
+  <style name="Macro" foreground="#d699b6"/>                                    <!-- blue -->
+  <style name="Label" foreground="#E06C75" bold="true"/>                        <!-- red -->
+  <style name="Comment" foreground="#9DA9A0" italic="true"/>                    <!-- gray0 -->
+  <style name="Doxygen.Comment" foreground="#5C6370" italic="true"/>            <!-- gray0 -->
+  <style name="Doxygen.Tag" foreground="#61AFEF"/>                              <!-- blue -->
+  <style name="VisualWhitespace" foreground="#3C4049"/>                         <!-- gray2 -->
+  <style name="QmlLocalId" foreground="#61AFEF"/>                               <!-- blue -->
+  <style name="QmlExternalId"/>
+  <style name="QmlTypeId" foreground="#61AFEF"/>                                 <!-- blue -->
+  <style name="QmlRootObjectProperty" foreground="#61AFEF"/>                    <!-- blue -->
+  <style name="QmlScopeObjectProperty" foreground="#61AFEF"/>                   <!-- blue -->
+  <style name="QmlExternalObjectProperty"/>
+  <style name="JsScopeVar"/>
+  <style name="JsImportVar" foreground="#D19A66"/>                              <!-- statusline2 -->
+  <style name="JsGlobalVar" foreground="#D19A66"/>                              <!-- statusline2 -->
+  <style name="QmlStateName" foreground="#61AFEF"/>                             <!-- blue -->
+  <style name="Binding" foreground="#D699B6"/>                                   <!-- purple -->
+  <style name="DisabledCode" foreground="#5C6370"/>                             <!-- gray0 -->
+  <style name="AddedLine" foreground="#98C379"/>                                <!-- green -->
+  <style name="RemovedLine" foreground="#E06C75"/>                              <!-- red -->
+  <style name="DiffFile" foreground="#61AFEF"/>                                 <!-- blue -->
+  <style name="DiffLocation" foreground="#D19A66"/>                            <!-- statusline2 -->
+  <style name="DiffFileLine" foreground="#2B2E33" background="#E5C07B"/>       <!-- bg_dim -->
+  <style name="DiffContextLine" foreground="#2B2E33" background="#56B6C2"/>    <!-- aqua -->
+  <style name="DiffSourceLine" foreground="#2B2E33" background="#BE5046"/>     <!-- red -->
+  <style name="DiffSourceChar" foreground="#2B2E33" background="#E06C75"/>     <!-- red -->
+  <style name="DiffDestLine" foreground="#2B2E33" background="#789353"/>        <!-- green -->
+  <style name="DiffDestChar" foreground="#2B2E33" background="#98C379"/>        <!-- green -->
+  <style name="LogChangeLine" foreground="#E06C75"/>                            <!-- red -->
+  <style name="LogAuthorName" foreground="#61AFEF"/>                            <!-- blue -->
+  <style name="LogCommitDate" foreground="#98C379"/>                           <!-- green -->
+  <style name="LogCommitHash" foreground="#E06C75"/>                           <!-- red -->
+  <style name="LogCommitSubject"/>
+  <style name="LogDecoration" foreground="#D699B6"/>                           <!-- purple -->
+  <style name="Warning" underlineColor="#D19A66" underlineStyle="SingleUnderline"/> <!-- statusline2 -->
+  <style name="WarningContext" underlineColor="#D19A66" underlineStyle="DotLine"/> <!-- statusline2 -->
+  <style name="Error" underlineColor="#E06C75" underlineStyle="SingleUnderline"/>  <!-- red -->
+  <style name="ErrorContext" underlineColor="#E06C75" underlineStyle="DotLine"/>  <!-- red -->
+  <style name="Declaration"/>
+  <style name="FunctionDefinition"/>
+  <style name="OutputArgument" italic="true"/>
+  <style name="StaticMember"/>
+  <style name="CocoCodeAdded"/>
+  <style name="CocoPartiallyCovered" foreground="#D19A66"/>                    <!-- statusline2 -->
+  <style name="CocoNotCovered" foreground="#E06C75"/>                          <!-- red -->
+  <style name="CocoFullyCovered" foreground="#98C379"/>                        <!-- green -->
+  <style name="CocoManuallyValidated" foreground="#61AFEF"/>                   <!-- blue -->
+  <style name="CocoDeadCode" foreground="#D699B6"/>                            <!-- purple -->
+  <style name="CocoExecutionCountTooLow" foreground="#E06C75"/>                <!-- red -->
+  <style name="CocoNotCoveredInfo" foreground="#E06C75"/>                      <!-- red -->
+  <style name="CocoCoveredInfo" foreground="#98C379"/>                        <!-- green -->
+  <style name="CocoManuallyValidatedInfo" foreground="#61AFEF"/>               <!-- blue -->
+  <style name="LastStyleSentinel"/>
+</style-scheme>
